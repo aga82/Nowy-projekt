@@ -1,0 +1,56 @@
+body {
+  background: #721A9B;
+  font-family: 'Kavivanar', cursive;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header {
+  background: #38DBE1;
+  height: 100px;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background: #EF16E7;
+}
+.rectangle{
+  width: 40px;
+  height: 25px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  margin-left: 40px;
+  color: #EF16E7;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #2B2F49;
+  font-size: 80px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.text {
+  color: #2B2F49;
+  font-size: 48px;
+}
